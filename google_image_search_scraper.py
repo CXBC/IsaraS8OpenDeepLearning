@@ -78,8 +78,7 @@ def main(args):
         save_directory = args.directory
     else:
         # if no command line parameter, directly use these parameters:
-        query = ["gazelle thomson", "gazelle grand", "monkey", "giraffe",
-                   "lion", "leopard", "elephant", "rhinoceros", "hyppopotame"]
+        query = ["voiture", "camion"]
         max_images = 50
         first_image_index = 0
         save_directory = "dataset/"
